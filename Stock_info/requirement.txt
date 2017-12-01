@@ -1,0 +1,17 @@
+userDB
+id,name,email-id,Aadhar-id
+
+symbolDB
+id,symbol,buying_price,date
+
+newDB
+id,symbol,buying_price,current_price,date
+
+Xlsinterface:
+id,name,email-id,aadhar-id,symbol,b_price,c_price,c_date,b_date
+
+step1> DBinterface
+step2> Webscraping
+step2.1> newDB for stroring webscraping data.
+step3> Xlsinterface(Report)
+step4> SendEmail
